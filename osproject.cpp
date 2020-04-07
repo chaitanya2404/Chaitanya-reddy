@@ -6,7 +6,7 @@ void swap(int *a, int *b)
 int temp = *a;
 *a = *b;
 *b = temp;}
-void arrangeArrival(int num, int arr[][6])
+void Arrivingtime(int num, int arr[][6])
 {
 for(int i=0; i<num; i++) {
 for(int j=0; j<num-i-1; j++) {
@@ -66,7 +66,7 @@ for(int i=0; i<num; i++)
 {
 cout<<arr[i][0]<<"\t\t"<<arr[i][1]<<"\t\t"<<arr[i][2]<<"\n";
 }
-arrangeArrival(num, arr);
+Arrivingtime(num, arr);
 completionTime(num, arr);
 cout<<"Final Result...\n";
 cout<<"Process ID\tArrival Time\tBurst Time\tWaiting Time\tTurnaround Time\n";
