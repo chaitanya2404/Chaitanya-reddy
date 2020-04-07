@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-int arr[10][6];
+int arr[6][6];
 void swap(int *a, int *b)
 {
 int temp = *a;
