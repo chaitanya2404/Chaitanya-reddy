@@ -5,8 +5,7 @@ void swap(int *a, int *b)
 {
 int temp = *a;
 *a = *b;
-*b = temp;
-}
+*b = temp;}
 void arrangeArrival(int num, int arr[][6])
 {
 for(int i=0; i<num; i++) {
